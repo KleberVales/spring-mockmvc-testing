@@ -11,3 +11,5 @@ Este projeto demonstra como realizar **testes simulando requisições HTTP sem s
 
 ---
 
+## 📂 Estrutura do Projeto
+

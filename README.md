@@ -58,5 +58,4 @@ flowchart TD
     J --> K[Fim do teste]
 ```
 
-## ▶️ Executando os Testes
 

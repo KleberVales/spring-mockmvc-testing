@@ -13,3 +13,20 @@ Este projeto demonstra como realizar **testes simulando requisições HTTP sem s
 
 ## 📂 Estrutura do Projeto
 
+```text
+spring-mockmvc-testing-demo/
+├── build.gradle.kts
+├── src
+│ ├── main
+│ │ └── java/com/example/springmockmvctest
+│ │ ├── SpringMockMvcTestingDemoApplication.java
+│ │ ├── controller/ProductController.java
+│ │ ├── entity/Product.java
+│ │ ├── repository/ProductRepository.java
+│ │ └── service/ProductService.java
+│ └── test
+│ └── java/com/example/springmockmvctest
+│ └── ProductControllerMockMvcTest.java
+└── src/main/resources/application.properties
+```
+

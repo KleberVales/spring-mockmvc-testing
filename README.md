@@ -42,3 +42,19 @@ spring-mockmvc-testing-demo/
 
 ---
 
+## 🔄 Fluxo de Teste com MockMvc
+
+```mermaid
+flowchart TD
+    A[Início do teste] --> B[Setup com @BeforeEach]
+    B --> C[MockMvc envia requisição GET/POST]
+    C --> D[Controller processa requisição]
+    D --> E[Service chama Repository]
+    E --> F[H2 Database em memória]
+    F --> G[Repository retorna dados]
+    G --> H[Service devolve resposta]
+    H --> I[Controller retorna JSON]
+    I --> J[MockMvc valida status e corpo]
+    J --> K[Fim do teste]
+```
+

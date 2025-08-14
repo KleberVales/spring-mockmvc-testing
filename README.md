@@ -30,3 +30,15 @@ spring-mockmvc-testing-demo/
 └── src/main/resources/application.properties
 ```
 
+---
+
+## 🛠 Tecnologias Utilizadas
+- **Java 21**
+- **Spring Boot 3**
+- **Spring Data JPA**
+- **H2 Database**
+- **MockMvc**
+- **JUnit 5**
+
+---
+
